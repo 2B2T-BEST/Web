@@ -11,7 +11,7 @@ import {themes as prismThemes} from 'prism-react-renderer';
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: '2B2T.BEST 无规则服官网',
-  tagline: '2B2T.BEST',
+  tagline: '正在建设中，敬请期待！',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
