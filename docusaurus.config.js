@@ -10,12 +10,12 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: '2B2T.BEST 无规则服务器',
+  title: '2B2T.BEST 无规则服官网',
   tagline: '我们致力于打造最好的无规则服务器！网站正在建设中，敬请期待！',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
-  url: 'https://your-docusaurus-site.example.com',
+  url: 'https://www.2b2t.best/',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: '/',
@@ -23,7 +23,7 @@ const config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: '2B2T-BEST', // Usually your GitHub org/user name.
-  projectName: 'Web', // Usually your repo name.
+  projectName: 'Website', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/2B2T-BEST/Web/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/2B2T-BEST/Website/tree/main/docs/',
         },
         blog: {
           showReadingTime: true,
@@ -57,7 +57,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/2B2T-BEST/Web/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://github.com/2B2T-BEST/Website/tree/main/blog/',
           // Useful options to enforce blogging best practices
           onInlineTags: 'warn',
           onInlineAuthors: 'warn',
@@ -76,7 +76,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: '2B2T.BEST 无规则服官网',
+        title: '2B2T.BEST 无规则服',
         logo: {
           alt: '2B2T.BEST Logo',
           src: 'img/logo.png',
@@ -90,7 +90,7 @@ const config = {
           },
           {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/2B2T-BEST/Web',
+            href: 'https://github.com/2B2T-BEST/Website',
             label: 'GitHub',
             position: 'right',
           },
@@ -139,7 +139,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2023-${new Date().getFullYear()} 2B2T.BEST Team. All rights reserved. Powered by HiWorldMC.`,
+        copyright: `Copyright © 2023-${new Date().getFullYear()} 2B2T.BEST. All rights reserved. Powered by HiWorldMC.`,
       },
       prism: {
         theme: prismThemes.github,
