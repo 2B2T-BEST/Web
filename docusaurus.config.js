@@ -82,7 +82,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'light',
+        style: 'dark',
         links: [
           {
             title: 'Docs',
