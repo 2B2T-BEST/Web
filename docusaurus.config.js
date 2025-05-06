@@ -69,11 +69,11 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
+            sidebarId: 'Wiki',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Wiki',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          {to: 'https://bbs.2b2t.best', label: '论坛', position: 'left'},
           {
             href: 'https://github.com/2B2T-BEST/Website',
             label: 'GitHub',
@@ -82,7 +82,7 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: 'light',
         links: [
           {
             title: 'Docs',
