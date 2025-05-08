@@ -87,8 +87,20 @@ const config = {
             title: '帮助中心',
             items: [
               {
-                label: '教程1文档',
+                label: '首页',
+                to: '/',
+              },
+              {
+                label: '教程文档',
                 to: '/docs/intro',
+              },
+              {
+                label: '论坛',
+                href: 'https://bbs.2b2t.best/',
+              },
+              {
+                label: 'QQ群',
+                href: 'https://qm.qq.com/q/XtqnjjuUkE',
               },
               {
                 label: '意见反馈',
