@@ -5,19 +5,19 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: '简单易用',
+    title: '简单游玩',
     Svg: require('@site/static/img/grass.svg').default,
-    description: '从零开始的手把手教程，简单明了的指引让新手也能快速上手，轻松创建自己的Minecraft服务器。',
+    description: '详细的游玩指南，玩服务器不再一头雾水。',
   },
   {
-    title: '详细全面',
+    title: '高度自由',
     Svg: require('@site/static/img/crafting-table.svg').default,
-    description: '涵盖服务器创建、配置、维护的方方面面，提供深入的指导和丰富的技巧，助你从新手成长为专业服务器管理员。',
+    description: '允许各种作弊开挂，复刻多种刷物漏洞，保留多种经典MC特性。',
   },
   {
-    title: '持续更新',
+    title: '服务保障',
     Svg: require('@site/static/img/furnace.svg').default,
-    description: '内容紧跟Minecraft最新版本和社区动态，定期更新教程和最佳实践，确保你获取最前沿的服务器管理知识。',
+    description: '极快的问题解决速度，友好的建议采纳。运营团队经验丰富，历史悠久。',
   },
 ];
 
@@ -41,10 +41,10 @@ export default function HomepageFeatures() {
       <div className="container">
         <div className={styles.sectionHeader}>
           <Heading as="h2" className={styles.sectionTitle}>
-            为什么选择 <span className="text--primary">NitWikit</span>
+            为什么选择 <span className="text--primary">2B2T.BEST</span>
           </Heading>
           <p className={styles.sectionSubtitle}>
-            我们致力于提供最全面、最易懂的Minecraft服务器创建与管理指南
+            我们致力于打造最好的无规则服务器！无规则MC的终极答案，性能与混沌的完美平衡！
           </p>
         </div>
         
