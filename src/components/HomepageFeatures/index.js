@@ -1,50 +1,36 @@
+import React from 'react';
 import clsx from 'clsx';
 import Heading from '@theme/Heading';
 import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
+    title: '简单易用',
+    Svg: require('@site/static/img/grass.svg').default,
+    description: '从零开始的手把手教程，简单明了的指引让新手也能快速上手，轻松创建自己的Minecraft服务器。',
   },
   {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
+    title: '详细全面',
+    Svg: require('@site/static/img/crafting-table.svg').default,
+    description: '涵盖服务器创建、配置、维护的方方面面，提供深入的指导和丰富的技巧，助你从新手成长为专业服务器管理员。',
   },
   {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
+    title: '持续更新',
+    Svg: require('@site/static/img/furnace.svg').default,
+    description: '内容紧跟Minecraft最新版本和社区动态，定期更新教程和最佳实践，确保你获取最前沿的服务器管理知识。',
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({ Svg, title, description }) {
   return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
+    <div className={styles.featureCard}>
+      <div>
         <Svg className={styles.featureSvg} role="img" />
       </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
+      <Heading as="h3" className={styles.featureTitle}>
+        {title}
+      </Heading>
+      <p className={styles.featureDescription}>{description}</p>
     </div>
   );
 }
@@ -53,10 +39,21 @@ export default function HomepageFeatures() {
   return (
     <section className={styles.features}>
       <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
+        <div className={styles.sectionHeader}>
+          <Heading as="h2" className={styles.sectionTitle}>
+            为什么选择 <span className="text--primary">NitWikit</span>
+          </Heading>
+          <p className={styles.sectionSubtitle}>
+            我们致力于提供最全面、最易懂的Minecraft服务器创建与管理指南
+          </p>
+        </div>
+        
+        <div className={styles.featuresInner}>
+          <div className={styles.gridContainer}>
+            {FeatureList.map((props, idx) => (
+              <Feature key={idx} {...props} />
+            ))}
+          </div>
         </div>
       </div>
     </section>

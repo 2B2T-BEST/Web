@@ -1,47 +1,25 @@
 ---
+title: 2B2T.BEST服务器文档
 sidebar_position: 1
 ---
 
-# Tutorial Intro
 
-Let's discover **Docusaurus in less than 5 minutes**.
+# 2B2T.BEST服务器文档
 
-## Getting Started
+👋 欢迎2B2T.BEST服务器文档！
 
-Get started by **creating a new site**.
+这里是主要针对 **2B2T.BEST** 无规则服务器的游玩指南及玩法教程指南。
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+文档正在不断完善中，欢迎补充！
 
-### What you'll need
+## 开始查看
 
-- [Node.js](https://nodejs.org/en/download/) version 18.0 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+请点击一侧的目录开始阅读文档。
 
-## Generate a new site
+## 更多
 
-Generate a new Docusaurus site using the **classic template**.
+对于文档中的错误请进入 [GitHub](https://github.com/2B2T-BEST/Website) 提出 Issue 或提交 Pr。
 
-The classic template will automatically be added to your project after you run the command:
+## 贡献
 
-```bash
-npm init docusaurus@latest my-website classic
-```
-
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
-
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+![GitHub贡献图](https://contrib.rocks/image?repo=2B2T-BSET/Website)

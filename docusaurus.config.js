@@ -47,7 +47,7 @@ const config = {
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/2B2T-BEST/Website/tree/main/docs/',
-        }
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -69,11 +69,11 @@ const config = {
         items: [
           {
             type: 'docSidebar',
-            sidebarId: 'Wiki',
+            sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Wiki',
+            label: 'Tutorial',
           },
-          {to: 'https://bbs.2b2t.best', label: '论坛', position: 'left'},
+          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/2B2T-BEST/Website',
             label: 'GitHub',
@@ -85,46 +85,54 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '帮助中心',
             items: [
               {
-                label: 'Tutorial',
+                label: '服务器文档',
                 to: '/docs/intro',
+              },
+              {
+                label: '意见反馈',
+                href: 'https://bbs.2b2t.best/forums/feedback/',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社交平台',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'QQ群：',
+                href: 'https://qm.qq.com/q/qnCs3wThNQs',
               },
               {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://discord.gg/rYGQuyNbhU/',
               },
               {
-                label: 'X',
-                href: 'https://x.com/docusaurus',
+                label: 'KOOK',
+                href: 'https://kook.vip/kwnu0n',
               },
             ],
           },
           {
-            title: 'More',
+            title: '相关链接',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '哔哩哔哩',
+                href: 'https://space.bilibili.com/1681111941',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/2B2T-BEST',
+              },
+              {
+                label: '创世极客工作室',
+                href: 'https://hiworldmc.com/',
               },
             ],
           },
         ],
-        copyright: `Copyright © 2023-${new Date().getFullYear()} 2B2T.BEST. All rights reserved. Powered by HiWorldMC.`,
+        copyright: `Copyright © 2023-${new Date().getFullYear()} 2B2T.BEST. All rights reserved. <br>Powered by HiWorldMC.`,
       },
       prism: {
         theme: prismThemes.github,
