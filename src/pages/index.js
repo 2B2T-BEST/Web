@@ -64,7 +64,7 @@ function HomeFooterCTA() {
         <div>
           <Link
             className={clsx('button button--primary button--lg')}
-            href="https://qm.qq.com/q/qnCs3wThNQs">
+            href="https://qm.qq.com/q/XtqnjjuUkE">
             立即游玩
           </Link>
         </div>
