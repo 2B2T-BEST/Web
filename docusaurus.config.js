@@ -101,7 +101,7 @@ const config = {
             items: [
               {
                 label: 'QQ群',
-                href: 'https://qm.qq.com/q/qnCs3wThNQs',
+                href: 'https://qm.qq.com/q/XtqnjjuUkE',
               },
               {
                 label: 'Discord',
