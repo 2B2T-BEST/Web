@@ -17,7 +17,7 @@ function HomepageHeader() {
         <div className={styles.heroContent}>
           <div className={styles.heroHeadline}>最好的，真正的</div>
           <Heading as="h1" className={styles.heroTitle}>
-            2B2T.BEST服务器</span>
+            <span>2B2T.BEST服务器</span>
           </Heading>
           <p className={styles.heroSubtitle}>
             致力于打造最好的无规则服务器！无规则MC的终极答案，性能与混沌的完美平衡！
