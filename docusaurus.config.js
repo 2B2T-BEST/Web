@@ -71,9 +71,8 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: '教程文档',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/2B2T-BEST/Website',
             label: 'GitHub',
@@ -88,7 +87,7 @@ const config = {
             title: '帮助中心',
             items: [
               {
-                label: '服务器文档',
+                label: '教程1文档',
                 to: '/docs/intro',
               },
               {
@@ -98,10 +97,10 @@ const config = {
             ],
           },
           {
-            title: '社交平台',
+            title: '交流平台',
             items: [
               {
-                label: 'QQ群：',
+                label: 'QQ群',
                 href: 'https://qm.qq.com/q/qnCs3wThNQs',
               },
               {
@@ -132,7 +131,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © 2023-${new Date().getFullYear()} 2B2T.BEST. All rights reserved. <br>Powered by HiWorldMC.`,
+        copyright: `Copyright © 2023-${new Date().getFullYear()} 2B2T.BEST. All rights reserved. <br>Powered by <a href="https://hiworldmc.com/">HiWorldMC</a>.`,
       },
       prism: {
         theme: prismThemes.github,
