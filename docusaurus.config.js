@@ -46,7 +46,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/2B2T-BEST/Website/tree/main/docs/',
+            'https://github.com/2B2T-BEST/Website/tree/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -87,16 +87,8 @@ const config = {
             title: '帮助中心',
             items: [
               {
-                label: '首页',
-                to: '/',
-              },
-              {
                 label: '教程文档',
                 to: '/docs/intro',
-              },
-              {
-                label: '论坛',
-                href: 'https://bbs.2b2t.best/',
               },
               {
                 label: 'QQ群',
