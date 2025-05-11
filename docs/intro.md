@@ -22,4 +22,4 @@ sidebar_position: 1
 
 ## 贡献
 
-![GitHub贡献图](https://contrib.rocks/image?repo=2B2T-BSET/Website)
+![GitHub贡献图](https://contrib.rocks/image?repo=2B2T-BEST/Website)
