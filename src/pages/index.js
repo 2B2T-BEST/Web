@@ -26,7 +26,7 @@ function HomepageHeader() {
             <Link
               className={clsx('button', styles.primaryButton)}
               href="https://bbs.2b2t.best/">
-              论坛 🚀
+              论坛
             </Link>
             <Link
               className={clsx('button', styles.primaryButton)}
@@ -77,7 +77,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={siteConfig.customFields.titlePrefix || siteConfig.title}
+      title={siteConfig.title}
       description={siteConfig.tagline}
       wrapperClassName="homepage">
       <HomepageHeader />
