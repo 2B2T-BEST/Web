@@ -74,6 +74,16 @@ const config = {
             label: '教程文档',
           },
           {
+            href: 'https://bbs.2b2t.best',
+            label: '论坛',
+            position: 'left',
+          },
+          {
+            href: 'https://qm.qq.com/q/XtqnjjuUkE',
+            label: 'QQ群',
+            position: 'left',
+          },
+          {
             href: 'https://github.com/2B2T-BEST/Website',
             label: 'GitHub',
             position: 'right',
