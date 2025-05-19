@@ -48,6 +48,13 @@ const config = {
           editUrl:
             'https://github.com/2B2T-BEST/Website/tree/main/',
         },
+        wiki: {
+          sidebarPath: './sidebars.js',
+          // Please change this to your repo.
+          // Remove this to remove the "edit this page" links.
+          editUrl:
+            'https://github.com/2B2T-BEST/Website/tree/main/',
+        },
         theme: {
           customCss: './src/css/custom.css',
         },
@@ -72,6 +79,12 @@ const config = {
             sidebarId: 'tutorialSidebar',
             position: 'left',
             label: '教程文档',
+          },
+          {
+            type: 'docSidebar',
+            sidebarId: 'wikiSidebar',
+            position: 'left',
+            label: 'Wiki',
           },
           {
             href: 'https://bbs.2b2t.best',
